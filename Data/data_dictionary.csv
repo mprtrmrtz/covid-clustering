@@ -1,0 +1,23 @@
+﻿Field Name,Format,Definition,Source
+FIPS,text,county level FIPS code,https://www.nrcs.usda.gov/wps/portal/nrcs/detail/national/home/?cid=nrcs143_013697
+area_name,text,"county name, state name",https://www.nrcs.usda.gov/wps/portal/nrcs/detail/national/home/?cid=nrcs143_013697
+MMR_VR,numeric,MMR vaccination coverage (0-1),https://doi.org/10.1016/S1473-3099(20)30522-3
+pop2020,count,population,https://data.census.gov/cedsci/table?q=population&tid=DECENNIALPL2020.P1
+State,text,state name,https://www.nrcs.usda.gov/wps/portal/nrcs/detail/national/home/?cid=nrcs143_013697
+pop_cat,text,"population category (Q1, Q2, Q3 and Q4)",https://data.census.gov/cedsci/table?q=population&tid=DECENNIALPL2020.P1
+Area_Type,text,land use category (rural and urban),https://www.census.gov/programs-surveys/geography/guidance/geo-areas/urban-rural.html
+std_fox_rtg,numeric,FNC viewership,https://www.nielsen.com/
+std_cnn_rtg,numeric,CNN viewership,https://www.nielsen.com/
+std_msn_rtg,numeric,MSNBC viewership,https://www.nielsen.com/
+std_local_rtg,numeric,Local news viewership,https://www.nielsen.com/
+VH_2021_12_15,%,"vaccine hesitant percentage on Dec 15, 2021",https://github.com/bansallab/vaccinetracking
+case_rate_12_15_21,rate,"cumulative deaths per 100,000 people on Dec 15, 2021",https://github.com/CSSEGISandData/COVID-19
+black_pct,%,percentage of populatio is black alone,https://data.census.gov/cedsci/table?q=p1
+hispanic_pct,%,percentage of populatio is hispanic or latino,https://data.census.gov/cedsci/table?q=p2
+higher_edu,%,"Percent of adults with a high school diploma only, 2015-19",https://www.ers.usda.gov/data-products/county-level-data-sets/county-level-data-sets-download-data/
+med_hhincome,numeric,median household income,https://www.census.gov/2020census
+median_age,year,median age,https://data.census.gov/cedsci/table?q=dp05
+vehicle_perhh,count,average number of vehicles per household,https://www.census.gov/2020census
+wo_insur_pct,%,the percentage of people who reported not having health insurance,https://data.census.gov/cedsci/table?q=S2701
+republican,%,the percentage of voters who chose Donald Trump as their presidential candidate during the 2020 presidential election,https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VOQCHQ
+twt501,%,Twitter misinformation percentage,https://ojs.aaai.org/index.php/ICWSM/article/view/18122
